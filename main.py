@@ -16,7 +16,7 @@ logger.setLevel(level=logging.DEBUG)
 @application.route("/v1/test/hello")
 def test_func():
     logger.info('request occurred!')
-    return 'hello snaps'
+    return 'hello hian'
 
 
 @application.route('/index.html')
